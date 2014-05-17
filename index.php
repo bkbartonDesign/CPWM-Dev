@@ -16,7 +16,7 @@
 	<link rel="icon" type="image/png" href="img/assets/CPWMbadge.png">
 	<script type="text/javascript" src="//use.typekit.net/vyk8tmp.js"></script>
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 	<script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>
 	<link rel="stylesheet" href="./css/combined.min.css">	
 	<link rel="stylesheet" href="./css/flexslider.min.css">
@@ -35,7 +35,6 @@
 		<div role="main" id="main" class="container">
 			<div class="sixteen columns">
 				<div class="nine columns offset-by-one alpha">
-					<a href="./slideshow.php">test</a>	
 					<div class="flexslider">
 						<ul class="slides">
 							<li>
