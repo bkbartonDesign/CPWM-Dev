@@ -1,6 +1,6 @@
 <?php
-	$title = "Financial Planning and Retirement Services - CenterPointe Wealth Management. Wichita, KS";
-	$description = "CenterPointe Wealth Management is a full service investment advisory firm providing retirement services, financial planning, and estate planning located in Wichita, KS";
+	$title = "Financial Planning - Wichita, KS";
+	$description = "CenterPointe Wealth Management is a full service asset and investment management firm providing retirement services, financial planning, and estate planning located in Wichita, KS";
 	$specificKeywords = "";
 ?>
 <!doctype html>
@@ -14,7 +14,7 @@
 
  	<?php include"./inc/inc.metaData.php" ?>
 	<link rel="icon" type="image/png" href="img/assets/CPWMbadge.png">
-	<!--<script type="text/javascript" src="//use.typekit.net/vyk8tmp.js"></script>
+	<script type="text/javascript" src="//use.typekit.net/vyk8tmp.js"></script>
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>-->
 	<script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>
@@ -23,7 +23,7 @@
 	<script> 
 		$("html").addClass("no-fouc");		
 	</script>	
-	<!--<script src="./js/analytics.js"></script>-->
+	<script src="./js/analytics.js"></script>
 
 </head>
 <body>	
@@ -83,7 +83,7 @@
 				<aside class="five columns offset-by-one omega add-bottom">
  					<a href="contact.php" ><img src="./img/callToAction/ChangeIsConstant.png" alt="Develop A Retirement Plan"/></a>
 					<hr/>
-					<a href="retirement-services.php">
+					<a href="retirement-planning.php">
 						<h2>Retirement Resource Center</h2>
  						<img class="add-bottom" src="./img/assets/rrcVideoStill.jpg" alt="Retirement Help at the Retirement Resource Center"  />
 					</a>
@@ -128,7 +128,7 @@
 			<div  class="sixteen columns add-padding">
 				<h2 class="dGold">CenterPointe Wealth Client Profile</h2>
 				<div class="four columns alpha">
-					<a href="./CenterPointe-Wealth-client-profile/investment-advise.php" class="clientType">
+					<a href="./CenterPointe-Wealth-client-profile/investment-advice.php" class="clientType">
 						<p class="half-bottom">Investors</p>
  						<img class="linkOpacity" src="./img/clientProfile/investors.jpg" alt="Investment Advice for Inverstors"/>
 					
@@ -202,12 +202,12 @@
 						</small>
 					</li>
 					<li id="CFP" class="seven columns omega">
-						<a href="http://www.cfp.net/searchpreview/EnhancedSearchIndividual.aspx?key=3qZATB7hE+gM3zQTR7d7FPyzDxB9/goOkn+3P7uVpyDzlB/trzWUgA==" target="_blank">
+						<a href="http://www.cfp.net/utility/find-a-cfp-professional/Details/?key=68f7f28b-f154-4a71-84b1-523717a917dd&SimpleSearch=True&CityStateZip=67202&City=&Zip=67202&Radius=5&AreasOfSpecialization=&Page=1&Session=58758" target="_blank">
  							<img src="./img/assets/cfpLogoBlk.png" alt="The Certified Financial Planner Board of Standards" />
 						</a>
 						<br/>
 						<small>
-							<a href="http://www.cfp.net/searchpreview/EnhancedSearchIndividual.aspx?key=3qZATB7hE+gM3zQTR7d7FPyzDxB9/goOkn+3P7uVpyDzlB/trzWUgA==" target="_blank">
+							<a href="http://www.cfp.net/utility/find-a-cfp-professional/Details/?key=68f7f28b-f154-4a71-84b1-523717a917dd&SimpleSearch=True&CityStateZip=67202&City=&Zip=67202&Radius=5&AreasOfSpecialization=&Page=1&Session=58758" target="_blank">
 							The Certified Financial Planner Board of
 							Standards</a> is a non profit organization which
 							promotes ethics, integrity and professional
@@ -223,13 +223,13 @@
 						</small>
 					</li>
 					<li id="FPA" class="seven columns alpha">
-						<a href="http://www.fpanet.org/PlannerSearch/Members/KS/Wichita/JohnBarton/default.aspx" target="_blank">
+						<a href="http://www.fpanet.org/" target="_blank">
  							<img src="./img/assets/FPAlogoBlk.png" alt="Financial Planning Association" />
 						</a>
 						<br/>
 						<small>
 							John Barton is member of the 
-							<a href="http://www.fpanet.org/PlannerSearch/Members/KS/Wichita/JohnBarton/default.aspx" target="_blank">
+							<a href="http://www.fpanet.org/" target="_blank">
 							Financial Planning Association™ (FPA),</a>
 							a membership organization
 							for the financial planning community. FPA is the

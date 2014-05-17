@@ -1,7 +1,7 @@
 <div class="sixteen columns clearfix" id="footer">
 			<hr/><br/>
 				<ul class="eleven columns offset-by-one small alpha nav" >
-					<a href="contact.php"><li>Contact CenterPointe</li></a>
+					<a href="../contact.php"><li>Contact CenterPointe</li></a>
 					<li>|</li>
 					<a href="https://myaccountviewonline.com"><li>Client Login</li></a>
 					<li>|</li>
@@ -9,7 +9,7 @@
 					<li>|</li>
 					<a href="http://www.sipc.org" target="_blank">SIPC</a>
 					<li>|</li>
-					<a href="./site-map.php" target="_blank">Site Map</a>					
+					<a href="../site-map.php">Site Map</a>					
 				</ul>
  				<img class="three columns omega" src="../img/assets/CenterPointeLogo206x61.png" alt="CenterPointe Wealth Financial Services Logo"/>
 				<div class="row">

@@ -1,5 +1,5 @@
 <?php
-	$title = "Retirement Management Services - Retirement Resource Center. Wichita, KS";
+	$title = "Plan for Retirement - Wichita, KS";
 	$description = "The Retirement Resource Center, a service provided by CenterPointe Wealth Management, gives retirees free advice on retirement matters.";
 	$specificKeywords = "Portfolio Review, Portfolio";
 ?>

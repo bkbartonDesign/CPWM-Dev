@@ -61,7 +61,7 @@
 						</li>
 						<li>
 							If you would like more detailed information, please contact
-							the <a href="retirement-services.php">Retirement Resource Center,</a>
+							the <a href="retirement-planning.php">Retirement Resource Center,</a>
 							a subsidiary of CenterPointe Wealth Management.
 						</li>	
 					</ul>

@@ -41,12 +41,12 @@
 						<li><a href="./financial-advisors-and-staff/CPWM-team.php">Our Team</a></li>
 						<li><a href="./financial-advisors-and-staff/JohnBarton.php">John Barton - Certified Financial Planner</a></li>
 						<li><a href="./financial-advisors-and-staff/TiffanyDick.php">Tiffany Dick - Certified Financial Planner</a></li>
-						<li><a href="financial-advisors-and-staff/NancyBarton.php">Nancy Barton - Office Manager</a></li>
-						<li><a href="./CenterPointe-Wealth-client-profile/investors.php">Client Profile - Investors</a></li>
+						<li><a href="./financial-advisors-and-staff/NancyBarton.php">Nancy Barton - Office Manager</a></li>
+						<li><a href="./CenterPointe-Wealth-client-profile/investment-advice.php">Client Profile - Investors</a></li>
 						<li><a href="./CenterPointe-Wealth-client-profile/planning-for-retirement.php">Client Porfile - Retirement Planning</a></li>
 						<li><a href="./CenterPointe-Wealth-client-profile/suddenly-single.php">Client Profile - Suddenly Single</a></li>
-						<li><a href="CenterPointe-Wealth-client-profile/women.php">Client Profile - Women</a></li>
-						<li><a href="contact.php">Contact Us</a></li>
+						<li><a href="./CenterPointe-Wealth-client-profile/women.php">Client Profile - Women</a></li>
+						<li><a href="./contact.php">Contact Us</a></li>
 					</ul>
 				</div>
 				

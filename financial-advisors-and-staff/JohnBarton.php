@@ -1,5 +1,5 @@
 <?php
-	$title = "John Barton - Wealth Advisor - CenterPointe Wealth Management. Wichita, KS";
+	$title = "John Barton - Financial Advisor, Wichita, KS";
 	$description = "John Barton has over 30 years of experience in providing professional retirement and estate planning.";
 	$specificKeywords = "";
 ?>
@@ -11,7 +11,7 @@
 
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-	<?php include"../inc/inc.metaData.php" ?>
+	<?php include("../inc/inc.metaData.php"); ?>
 	<link rel="icon" type="image/png" href="../img/assets/CPWMbadge.png">
 	<link rel="stylesheet" href="../css/combined.min.css">	
 	<script type="text/javascript" src="//use.typekit.net/vyk8tmp.js"></script>

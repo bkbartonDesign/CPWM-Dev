@@ -11,7 +11,7 @@
 
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-	<?php include"../inc/inc.metaData.php" ?>
+	<?php include("../inc/inc.metaData.php"); ?>
 	<link rel="icon" type="image/png" href="../img/assets/CPWMbadge.png">
 	<link rel="stylesheet" href="../css/combined.min.css">	
 	<script type="text/javascript" src="//use.typekit.net/vyk8tmp.js"></script>
@@ -35,7 +35,7 @@
 					<h1 class="add-bottom">Tiffany Dick</h1>
 					<img align="right" style="padding-left:15px;" src="../img/team/TiffanyDickLg.jpg" alt="Tiffany Dick - LPL Financial Advisor" />
 				<p>	
-					Tiffany Dick is a Registered Paraplanner. She graduated with a
+					Tiffany Dick is an LPL Financial Advisor. She graduated with a
 					Bachelor’s degree in Business Administration from Sterling College and
 					worked in accounting with the J. Russell Companies as well as an
 					Administrative Assistant at Emprise Bank prior to joining our firm. 
