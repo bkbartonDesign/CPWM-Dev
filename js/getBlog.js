@@ -1,9 +1,18 @@
 	// @Blog 
+
+// $.ajax({
+// 	type:"GET",
+// 	url:"./inc/getBlog2.php?url=http://www.integrated-financial-group.com/RSSRetrieve.aspx?ID=12744&Type=RSS20",
+// 	contentType:"application/rss+xml",
+// 	//data:data,
+// 	success:function(data){console.log(data);}//blogBits(data)
+// })
+
+
+
 	$.get("./inc/getBlog2.php", function(data){
-			
-		var blog = JSON.parse(data);
-		blogBits(blog);	
-				
+		var blog = $.parseJSON(data)//JSON.parse(data).serialize();
+		blogBits(blog);			
 	}).fail(function(){
 		$.get("../inc/getBlog2.php", function(data){
 			var blog = JSON.parse(data);
@@ -47,7 +56,7 @@
 				// ** Make LINK ** //
 				// Appends link data //
 				// Appends html //
-				var makeahref = $("<a></a>").attr({"href":postLink,"target":"_blank"})
+				var makeahref = $("<a></a>").attr({"href":postLink,"target":"_blank","rel":"nofollow"})
 											.append(postTitle,br,postDate)
 											.appendTo(makeli);	
 				$(makeli).appendTo("ul.IFGBlog");													
