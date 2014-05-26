@@ -35,15 +35,11 @@
 		<div role="main" id="main" class="container">
 			<div class="sixteen columns">
 				<div class="nine columns offset-by-one alpha">
-					<div class="flexslider">
-						<ul class="slides">
-							<li>
-								<img src="./img/wichita/keeper1withTag.jpg" alt="CPWM. 30 Year of Professional Retirement and Financial Advice"/>
-							</li>
-							<li>
- 								<img src="./img/wichita/downtown.jpg" alt="Serving Wichita, KS with Financial and Retirement Services"/>
-							</li>
-						</ul>
+					<div class="slideshow">
+						<div class="slides">
+							<img class="pic" src="./img/wichita/keeper1withTag.jpg" alt="CPWM. 30 Year of Professional Retirement Planning and Financial Advice"/>
+ 							<img class="pic" src="./img/wichita/downtown.jpg" alt="Serving Wichita, KS with Financial Planning and Retirement Services"/>
+						</div>
 					</div>
 					<div class="text">
 						<!--<img src="./img/assets/CenterPointeTagline.png" alt="" />-->

@@ -1,42 +1,59 @@
-// @ From RRC: video link.
-	$("a .vidLInk").click(function(e){
-		e.PreventDefault();
-	})
+$(function(){
+	if ($('.slideshow')){
+		var bottom = $('.pic').last().addClass('bottom');
+		var top = $('.pic').first().addClass('top');
 
-
-		
-// @index no-fouc
-	function showPage() {
-		if ('html.no-fouc'){
-			$('html').fadeIn(300).removeClass('no-fouc');
+		var timeout = function (time) {
+		    window.setTimeout(slide, time);
 		}
-	}
-			
+
+		var slide = function () {
+		    bottom = $('.bottom');
+		    $('.top').fadeOut('3000', function () {
+		        $(bottom).removeClass('bottom').addClass('top');
+		        $(this).removeClass('top')
+		            .addClass('bottom')
+		            .css('display', 'inline');
+		    })
+		    timeout(8000);
+		}
+
+		timeout(8000);
+	}	
+
+	// @ From RRC: video link.
+	if ($('.vidLink')){ $("a .vidLInk").click(function(e){ e.PreventDefault();})}
+
+	// @index no-fouc
+	function showPage() {
+		if ('html.no-fouc'){ $('html').fadeIn(300).removeClass('no-fouc'); }
+	}		
 	function delayPageLoad() { window.setTimeout ( showPage,300 ) }
 			
 	delayPageLoad();
+
+	window.log = function f(){ log.history = log.history || []; log.history.push(arguments); if(this.console) { var args = arguments, newarr; args.callee = args.callee.caller; newarr = [].slice.call(args); if (typeof console.log === 'object') log.apply.call(console.log, console, newarr); else console.log.apply(console, newarr);}};
+	(function(a){function b(){}for(var c="assert,count,debug,dir,dirxml,error,exception,group,groupCollapsed,groupEnd,info,log,markTimeline,profile,profileEnd,time,timeEnd,trace,warn".split(","),d;!!(d=c.pop());){a[d]=a[d]||b;}})
+	(function(){try{console.log();return window.console;}catch(a){return (window.console={});}}());
+
+
+})
+
+
 	
-$(function(){
-// @index flex-slider setup.
-	$('.flexslider').flexslider(
-		{
-		controlNav: false,
-		directionNav: false,
-		slideshow: true
-		}
+// $(function(){
+// // @index flex-slider setup.
+// 	$('.flexslider').flexslider(
+// 		{
+// 		controlNav: false,
+// 		directionNav: false,
+// 		slideshow: true
+// 		}
 		
-	);
+// 	);
 	
 			
-});
-
-// usage: log('inside coolFunc', this, arguments);
-// paulirish.com/2009/log-a-lightweight-wrapper-for-consolelog/
-window.log = function f(){ log.history = log.history || []; log.history.push(arguments); if(this.console) { var args = arguments, newarr; args.callee = args.callee.caller; newarr = [].slice.call(args); if (typeof console.log === 'object') log.apply.call(console.log, console, newarr); else console.log.apply(console, newarr);}};
-
-// make it safe to use console.log always
-(function(a){function b(){}for(var c="assert,count,debug,dir,dirxml,error,exception,group,groupCollapsed,groupEnd,info,log,markTimeline,profile,profileEnd,time,timeEnd,trace,warn".split(","),d;!!(d=c.pop());){a[d]=a[d]||b;}})
-(function(){try{console.log();return window.console;}catch(a){return (window.console={});}}());
+// });
 
 
 // place any jQuery/helper plugins in here, instead of separate, slower script files.
@@ -46,7 +63,7 @@ window.log = function f(){ log.history = log.history || []; log.history.push(arg
 * jQuery FlexSlider v2.0
 * Copyright 2012 WooThemes
 * Contributing Author: Tyler Smith
-*/
+
 ;(function(d){d.flexslider=function(h,k){var a=d(h),c=d.extend({},d.flexslider.defaults,k),e=c.namespace,o="ontouchstart"in window||window.DocumentTouch&&document instanceof DocumentTouch,s=o?"touchend":"click",l="vertical"===c.direction,m=c.reverse,i=0<c.itemWidth,p="fade"===c.animation,r=""!==c.asNavFor,f={};d.data(h,"flexslider",a);f={init:function(){a.animating=!1;a.currentSlide=c.startAt;a.animatingTo=a.currentSlide;a.atEnd=0===a.currentSlide||a.currentSlide===a.last;a.containerSelector=c.selector.substr(0,
 c.selector.search(" "));a.slides=d(c.selector,a);a.container=d(a.containerSelector,a);a.count=a.slides.length;a.syncExists=0<d(c.sync).length;"slide"===c.animation&&(c.animation="swing");a.prop=l?"top":"marginLeft";a.args={};a.manualPause=!1;a.transitions=!c.video&&!p&&c.useCSS&&function(){var b=document.createElement("div"),c=["perspectiveProperty","WebkitPerspective","MozPerspective","OPerspective","msPerspective"],d;for(d in c)if(b.style[c[d]]!==void 0){a.pfx=c[d].replace("Perspective","").toLowerCase();
 a.prop="-"+a.pfx+"-transform";return true}return false}();""!==c.controlsContainer&&(a.controlsContainer=0<d(c.controlsContainer).length&&d(c.controlsContainer));""!==c.manualControls&&(a.manualControls=0<d(c.manualControls).length&&d(c.manualControls));c.randomize&&(a.slides.sort(function(){return Math.round(Math.random())-0.5}),a.container.empty().append(a.slides));a.doMath();r&&f.asNav.setup();a.setup("init");c.controlNav&&f.controlNav.setup();c.directionNav&&f.directionNav.setup();c.keyboard&&
@@ -80,6 +97,6 @@ slideshow:!0,slideshowSpeed:7E3,animationSpeed:600,initDelay:0,randomize:!1,paus
 removed:function(){}};d.fn.flexslider=function(h){h=h||{};if("object"===typeof h)return this.each(function(){var a=d(this),c=a.find(h.selector?h.selector:".slides > li");1===c.length?(c.fadeIn(400),h.start&&h.start(a)):void 0===a.data("flexslider")&&new d.flexslider(this,h)});var k=d(this).data("flexslider");switch(h){case "play":k.play();break;case "pause":k.pause();break;case "next":k.flexAnimate(k.getTarget("next"),!0);break;case "prev":case "previous":k.flexAnimate(k.getTarget("prev"),!0);break;
 default:"number"===typeof h&&k.flexAnimate(h,!0)}}})(jQuery);
 
-
+*/
 
 

@@ -19,37 +19,16 @@
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>-->
 	<script src="js/libs/jquery-1.7.1.js"></script>
 	<link rel="stylesheet" href="./css/combined.min.css">	
-	<link rel="stylesheet" href="./css/flexslider.min.css">
+	<!--<link rel="stylesheet" href="./css/flexslider.min.css">-->
 	<style>
-		ul.slides > li {display:none;visibility: hidden; z-index:0;}
-		ul.slides > li.active { display:inline; visibility: visible; z-index:10;}
+		.slides{ position: relative; display:block; }
+		.pic{ position: absolute; }
+		.top { z-index:100; }
+		.bottom { z-index:0; }  
+		.text{margin:340px 0 0 0;}
 	</style>
 	<script> 
-		$("html").addClass("no-fouc");
-		$(function(){
-			var timed = function(){
-				window.setTimeout(imgChange,2000)	
-			}
-			var imgChange = function(){
-				var one = $("ul.slides li#1");
-				var two = $("ul.slides li#2");
-				if ($(one).hasClass('active')){
-					$(one).fadeOut(2000,function(){$(one).removeClass('active');});
-					
-					$(two).fadeIn(1000, function(){$(two).addClass('active');});
-					//console.log("one");
-				}
-				else if ($(two).hasClass('active')){
-					$(two).fadeOut(2000,function(){$(one).removeClass('active');});
-					$(one).fadeIn(1000,function(){$(one).addClass('active');});	
-					console.log("two");
-				}
-				
-			}
-			timed();
-		})
-
-		
+		$("html").addClass("no-fouc");		
 	</script>	
 	<!--<script src="./js/analytics.js"></script>-->
 
@@ -62,14 +41,10 @@
 			<div class="sixteen columns">
 				<div class="nine columns offset-by-one alpha">
 					<div class="slideshow">
-						<ul class="slides">
-							<li class="active" id="1">
-								<img src="./img/wichita/keeper1withTag.jpg" alt="CPWM. 30 Year of Professional Retirement and Financial Advice"/>
-							</li>
-							<li id="2">
- 								<img src="./img/wichita/downtown.jpg" alt="Serving Wichita, KS with Financial and Retirement Services"/>
-							</li>
-						</ul>
+						<div class="slides">
+							<img class="pic" src="./img/wichita/keeper1withTag.jpg" alt="CPWM. 30 Year of Professional Retirement and Financial Advice"/>
+ 							<img class="pic" src="./img/wichita/downtown.jpg" alt="Serving Wichita, KS with Financial and Retirement Services"/>
+						</div>
 					</div>
 					<div class="text">
 						<!--<img src="./img/assets/CenterPointeTagline.png" alt="" />-->
@@ -294,7 +269,10 @@
 					</li>
 				</ul>
 			</div>
-		</footer>		
+		</footer>
+	<script>
+
+	</script>
 	<script src="./js/script.js"></script>
 	</body>
 </html>
