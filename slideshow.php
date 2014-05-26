@@ -12,7 +12,7 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
 
- 	<?php include"./inc/inc.metaData.php" ?>
+	<?php include("./inc/inc.metaData.php"); ?>	
 	<link rel="icon" type="image/png" href="img/assets/CPWMbadge.png">
 	<!--<script type="text/javascript" src="//use.typekit.net/vyk8tmp.js"></script>
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>

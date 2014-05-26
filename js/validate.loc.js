@@ -9,7 +9,7 @@
 			{
 				debug:true,
 				rules:{
-							fname:"required",
+						fname:"required",
 						lname:"required",
 						userPhone:"required",
 						userEmail:"required",
@@ -62,16 +62,20 @@
    						//$("#CPWMform").ajaxSubmit(validateOptions);
 							$.ajax({
 									type:"POST",
-								url:"process.php",
+									url:"process.php",
 									data: {
 											contactData:contactData,
 											services:services
 											},
 									success:function(data){
+										$("#CPWMform").fadeOut('slow',function(){
+											$(".thankyou").fadeIn('fast');
+										})
 										//console.log(contactData.fname+" "+contactData.fname);
-										console.log(data);	
+										//console.log(data);	
+
 										},
-								error: function(data){console.log("you suck");}
+								error: function(data){console.log("Error: "+data);}
 						});
 							console.log("clicked");
 							//console.log(contactData);

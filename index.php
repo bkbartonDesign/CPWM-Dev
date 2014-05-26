@@ -1,5 +1,5 @@
 <?php
-	$title = "Financial Planning - Wichita, KS";
+	$title = "Financial Planning and Retirement Services  - Wichita, KS";
 	$description = "CenterPointe Wealth Management is a full service asset and investment management firm providing retirement services, financial planning, and estate planning located in Wichita, KS";
 	$specificKeywords = "";
 ?>
@@ -12,7 +12,7 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
 
- 	<?php include"./inc/inc.metaData.php" ?>
+	<?php include("./inc/inc.metaData.php"); ?>	
 	<link rel="icon" type="image/png" href="img/assets/CPWMbadge.png">
 	<script type="text/javascript" src="//use.typekit.net/vyk8tmp.js"></script>
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
@@ -105,7 +105,7 @@
 					<br/>
 				</div>
 				<div class="six columns offset-by-one alpha">					
-					<a href="http://www.jbarton.retirementtime.com/rtindex/iflm_presentation.jsp" target="_blank"><img src="./img/assets/rt_logo.png" class="vidBtn"  alt="Video - Retirement Advice"/></a>
+					<a href="http://www.jbarton.retirementtime.com/rtindex/iflm_presentation.jsp" target="_blank" rel="nofollow"><img src="./img/assets/rt_logo.png" class="vidBtn"  alt="Video - Retirement Advice"/></a>
 					<p>
 						This short video explores some of the significant challenges facing
 						people who are nearing retirement or how have already retired.  It’s
@@ -113,7 +113,7 @@
 						video explains The Income for Life Model.</p>
 				</div>
 				<div class="six columns offset-by-one">
- 					<a href="https://jbarton.sswise.com/sswise/homepage.jsp" target="_blank"><img src="./img/assets/ss_logo_USE.png" class="vidBtn" target="_blank" alt="Video - Social Security Advice"/></a>
+ 					<a href="https://jbarton.sswise.com/sswise/homepage.jsp" target="_blank" rel="nofollow"><img src="./img/assets/ss_logo_USE.png" class="vidBtn" target="_blank" alt="Video - Social Security Advice"/></a>
 					<p>
 						There’s a lot to think about – and a lot at stake – when it comes to
 						Social Security.  This video “Good Decisions - Getting the Most from
@@ -181,12 +181,12 @@
 				<h2>Affiliates</h2>
 				<hr/>
 					<li id="Integrated Financial" class="seven columns alpha">
-						<a href="http://www.integrated-financial-group.com/advisors/john-barton" target="_blank">
+						<a href="http://www.integrated-financial-group.com/advisors/john-barton" target="_blank" rel="nofollow">
  							<img src="./img/assets/intergratedFinancialLogo.png" alt="Intergrated Financial Group - A Consortium of Independent Financial Planners" />
 						</a>
 						<br/>
 						<small>
-							John Barton is aligned with <a href="http://www.integrated-financial-group.com/advisors/john-barton" target="_blank">Integrated Financial
+							John Barton is aligned with <a href="http://www.integrated-financial-group.com/advisors/john-barton" target="_blank" rel="nofollow">Integrated Financial
 							Group,</a> one of the largest independent financial
 							planning consortiums in the country, providing
 							additional ideas, innovation and brain power
@@ -201,12 +201,12 @@
 						</small>
 					</li>
 					<li id="CFP" class="seven columns omega">
-						<a href="http://www.cfp.net/utility/find-a-cfp-professional/Details/?key=68f7f28b-f154-4a71-84b1-523717a917dd&SimpleSearch=True&CityStateZip=67202&City=&Zip=67202&Radius=5&AreasOfSpecialization=&Page=1&Session=58758" target="_blank">
+						<a href="http://www.cfp.net/utility/find-a-cfp-professional/Details/?key=68f7f28b-f154-4a71-84b1-523717a917dd&SimpleSearch=True&CityStateZip=67202&City=&Zip=67202&Radius=5&AreasOfSpecialization=&Page=1&Session=58758" target="_blank" rel="nofollow">
  							<img src="./img/assets/cfpLogoBlk.png" alt="The Certified Financial Planner Board of Standards" />
 						</a>
 						<br/>
 						<small>
-							<a href="http://www.cfp.net/utility/find-a-cfp-professional/Details/?key=68f7f28b-f154-4a71-84b1-523717a917dd&SimpleSearch=True&CityStateZip=67202&City=&Zip=67202&Radius=5&AreasOfSpecialization=&Page=1&Session=58758" target="_blank">
+							<a href="http://www.cfp.net/utility/find-a-cfp-professional/Details/?key=68f7f28b-f154-4a71-84b1-523717a917dd&SimpleSearch=True&CityStateZip=67202&City=&Zip=67202&Radius=5&AreasOfSpecialization=&Page=1&Session=58758" target="_blank" rel="nofollow">
 							The Certified Financial Planner Board of
 							Standards</a> is a non profit organization which
 							promotes ethics, integrity and professional
@@ -222,13 +222,13 @@
 						</small>
 					</li>
 					<li id="FPA" class="seven columns alpha">
-						<a href="http://www.fpanet.org/" target="_blank">
+						<a href="http://www.fpanet.org/" target="_blank" rel="nofollow">
  							<img src="./img/assets/FPAlogoBlk.png" alt="Financial Planning Association" />
 						</a>
 						<br/>
 						<small>
 							John Barton is member of the 
-							<a href="http://www.fpanet.org/" target="_blank">
+							<a href="http://www.fpanet.org/" target="_blank" rel="nofollow">
 							Financial Planning Association™ (FPA),</a>
 							a membership organization
 							for the financial planning community. FPA is the
@@ -246,14 +246,14 @@
 						</small>
 					</li>
 					<li id="CFP" class="seven columns omega">
-						<a href="http://www.mdrt.com" target="_blank">
+						<a href="http://www.mdrt.com" target="_blank" rel="nofollow">
  							<img src="./img/assets/MDRTLogo.jpg" alt="The Certified Financial Planner Board of Standards" />
 						</a>
 						<br/>
 						<small>
 							John Barton is recognized as a Qualifying Life
 							Member of the prestigious 
-							<a href="http://www.mdrt.com" target="_blank">
+							<a href="http://www.mdrt.com" target="_blank" rel="nofollow">
 							Million Dollar Round Table (MDRT),
 							</a> 
 							“The Premier Association of

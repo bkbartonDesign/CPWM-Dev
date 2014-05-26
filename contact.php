@@ -15,7 +15,7 @@ ini_set('display_errors', 'On');
 
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
- 	<?php include"./inc/inc.metaData.php" ?>	
+ 	<?php include("./inc/inc.metaData.php"); ?>	
 	<link rel="icon" type="image/png" href="img/assets/CPWMbadge.png">	
 	<link rel="stylesheet" href="css/combined.min.css">	
 	<script type="text/javascript" src="//use.typekit.net/vyk8tmp.js"></script>
@@ -41,13 +41,13 @@ ini_set('display_errors', 'On');
 				
 					<form name="CPWMform" id="CPWMform" method="post" action="./inc/inc.mailProcess.php">
 						<label for="fname">*First Name:</label>
-							<input type="text" name="fname" id="fname">
+							<input type="text" name="fname" id="fname" required>
 						<label for="lname">*Last Name:</label>
-							<input type="text" name="lname" id="lname">
+							<input type="text" name="lname" id="lname" required>
 						<label for="userPhone">*Phone Number:</label>
-							<input type="tel" name="userPhone" id="userPhone">
+							<input type="tel" name="userPhone" id="userPhone" required>
 						<label for="userEmail">*Email Address:</label>
-							<input type="email" name="userEmail" id="userEmail">
+							<input type="email" name="userEmail" id="userEmail" required> 
 	
 						<label for="services">*What Advisory Services can we assist you with:</label>
 						<small>(check all that apply)</small><br/>
@@ -57,17 +57,22 @@ ini_set('display_errors', 'On');
 							<input type="checkbox" name="Estate Planning" id="estate" class="services" value="Estate Planning">Estate Planning</br><br/>
 						</div>
 						<label for="contactTime">*When is it best to contact you?</label>
-							<select name="contactTime" id="contactTime">
-								<option value="Anytime">Anytime</option>
-								<option value="Week days between 8am - 12pm">Week days between 8am - 12pm</option>
-								<option value="Week days between 12pm - 5pm">Week days between 12pm - 5pm</option>
-								<option value="Week days between 5pm - 7pm">Week days between 5pm - 7pm</option>
-								<option value="Weekends">Weekends</option>
-							</select>
-							<input type="submit" name="CPWMsubmit" id="CPWMsubmit" value="Send To CenterPointe">						
+						<select name="contactTime" id="contactTime">
+							<option value="Anytime">Anytime</option>
+							<option value="Week days between 8am - 12pm">Week days between 8am - 12pm</option>
+							<option value="Week days between 12pm - 5pm">Week days between 12pm - 5pm</option>
+							<option value="Week days between 5pm - 7pm">Week days between 5pm - 7pm</option>
+							<option value="Weekends">Weekends</option>
+						</select>
+						<input type="submit" name="CPWMsubmit" id="CPWMsubmit" value="Send To CenterPointe">						
 					</form>
+				<h2 class="thankyou">
+					Thank you for your message. We will be contacting you shortly!
+				</h2>
 					
 				</div>
+
+
 				<aside class="five columns offset-by-one omega">
 					<?php include("./inc/inc.aside.php")?>
 				</aside>

@@ -110,7 +110,7 @@ $mail->AddCC  ("n3w_y0rk@hotmail.com", "Brian Barton");
 $mail->SMTPAuth = "true";
 $mail->Username = "bkbarton@bkbarton.com";
 
-$mail->Subject  = "CenterPointe Wealth test email:";
+$mail->Subject  = "Email Sent from CenterPointeWealth.com:";
 
 $mail->Body     = 	"A message was sent to you from CenterPointeWealth.com\r\n"
 					."~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n\r\n"
