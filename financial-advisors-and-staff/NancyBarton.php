@@ -1,5 +1,5 @@
 <?php
-	$title = "Nancy Barton - Office Manager - CenterPointe Wealth Management. Wichita, KS";
+	$title = "Nancy Barton - Office Manager, Wichita, KS";
 	$description = "Nancy Barton is the Office Manager for CenterPointe Wealth Management.";
 	$specificKeywords = "office manager";
 ?>

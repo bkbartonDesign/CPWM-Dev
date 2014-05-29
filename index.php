@@ -19,7 +19,7 @@
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 	<script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>
 	<link rel="stylesheet" href="./css/combined.min.css">	
-	<link rel="stylesheet" href="./css/flexslider.min.css">
+	<!--<link rel="stylesheet" href="./css/flexslider.min.css">-->
 	<script> 
 		$("html").addClass("no-fouc");		
 	</script>	

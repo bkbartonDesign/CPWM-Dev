@@ -1,5 +1,5 @@
 <?php
-	$title = "Tiffany Dick - CenterPointe Wealth Management. Wichita, KS";
+	$title = "Tiffany Dick - Financial Advisor, Wichita, KS";
 	$description = "Tiffany Dick is a Client Coordinator for CenterPointe Wealth Management and is a Registered Paraplanner.";
 	$specificKeywords = "client coordinator, registered paraplanner";
 ?>

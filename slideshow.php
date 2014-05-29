@@ -21,8 +21,8 @@
 	<link rel="stylesheet" href="./css/combined.min.css">	
 	<!--<link rel="stylesheet" href="./css/flexslider.min.css">-->
 	<style>
-		.slides{ position: relative; display:block; }
-		.pic{ position: absolute; }
+		.slides{ position: relative; }
+		.pic { position: absolute;}
 		.top { z-index:100; }
 		.bottom { z-index:0; }  
 		.text{margin:340px 0 0 0;}

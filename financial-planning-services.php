@@ -1,5 +1,5 @@
 <?php
-	$title = "Retirement, Estate Planning, Investment Management - CenterPointe Wealth Management. Wichita, KS";
+	$title = "Retirement, Estate Planning, Asset Management - Wichita, KS";
 	$description = "CenterPointe Wealth Management's financial services, examines every detail of your life, to tailor a financial plan to fit your personal and financial goals.";
 	$specificKeywords = "Investment Management, investment";
 ?>
