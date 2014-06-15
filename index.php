@@ -36,7 +36,7 @@
 			<div class="sixteen columns">
 				<div class="nine columns offset-by-one alpha">
 					<div class="slideshow">
-						<div class="slides">
+						<div class="images">
 							<img class="pic" src="./img/wichita/keeper1withTag.jpg" alt="CPWM. 30 Year of Professional Retirement Planning and Financial Advice"/>
  							<img class="pic" src="./img/wichita/downtown.jpg" alt="Serving Wichita, KS with Financial Planning and Retirement Services"/>
 						</div>

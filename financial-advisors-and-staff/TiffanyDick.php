@@ -34,26 +34,21 @@
 				<div class="nine columns offset-by-one alpha">
 					<h1 class="add-bottom">Tiffany Dick</h1>
 					<img align="right" style="padding-left:15px;" src="../img/team/TiffanyDickLg.jpg" alt="Tiffany Dick - LPL Financial Advisor" />
-				<p>	
-					Tiffany Dick is an LPL Financial Advisor. She graduated with a
-					Bachelor’s degree in Business Administration from Sterling College and
-					worked in accounting with the J. Russell Companies as well as an
-					Administrative Assistant at Emprise Bank prior to joining our firm. 
-				</p>
-				<p>
-					Outside the office, Tiffany enjoys time with her husband and children.
-					Active in her church community, Tiffany facilitates Dave Ramsey’s
-					Financial Peace University classes and coordinates a ministry for
-					mothers.
-				</p>
+						<p>Tiffany Dick is an LPL Financial Advisor. She holds a Bachelor’s degree in Business Administration from Sterling College and her prior work experience includes administrative and accounting positions at J. Russell Companies and Emprise Bank. </p>
+						<p>Outside the office, Tiffany enjoys time with her husband and children. She is an avid reader and motorcycle enthusiast. Active in her church community, Tiffany and her husband facilitate Dave Ramsey’s Financial Peace University classes and she has held leadership roles in various church ministries over the years.</p>
+						<p>Tiffany would describe herself as a “teacher at heart”, so having the opportunity to share her industry expertise in a way that brings clarity and guidance to her clients has been very rewarding.</p>
+						<p>“The way we work with our clients here at CenterPointe Wealth is so much more than quick investment advice. Financial planning is at the core of what we do and that certainly separates us from much of the crowd. We get to know our clients and what their life goals and dreams are then we look at how we can help them employ their resources to make those dreams a reality.”</p>
 				<ul class="dot">Areas of Expertise
 					<li>Client Coordination</li>
 				</ul> 
 				<ul class="dot">Education and Certification
-					<li>Registered Paraplanner with LPL Financial</li>
+					<li>Holds FINRA Series 7 and 66 securities registrations with LPL Financial</li>
+					<li>Registered to conduct securities business in the state of Kansas</li>
+					<li>Licensed to sell insurance in the state of Kansas</li>
+					<li>Formerly held designation -  Registered Paraplanner</li>
 					<li>Bachelor of Business Administration, Sterling College, Sterling, KS</li>
 				</ul>
-				</div>
+			</div>
 				
 				<aside >
 					<ul id="team" class="five columns offset-by-one omega"> 
