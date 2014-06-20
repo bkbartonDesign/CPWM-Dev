@@ -26,7 +26,7 @@
 			<li>|</li>
 			<a href="../financial-planning-services.php"><li class="mainLink">Advisory Services</li></a>
 			<li>|</li>
-			<a href="../retirement-planning.php"><li class="mainLink">Retirement Resource Center</li></a>
+			<a href="../plan-retirement.php"><li class="mainLink">Retirement Planning</li></a>
 			<li>|</li>
 			<a href="../financial-advisors-and-staff/CPWM-team.php"><li class="mainLink">Our Team</li></a>
 			<li>|</li>

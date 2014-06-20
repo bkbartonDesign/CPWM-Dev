@@ -30,9 +30,10 @@ module.exports = function(grunt) {
     sync:{ 
       main:{ 
         files:[
-          { src:['**','!node_modules/**', '!./redir/**', '!package.json','!Gruntfile.js'], dest: '/Users/brianbarton/Sites/bkbd/CPWM/CPWM-Prod' },
+          { src:['**','./js/**,','./css/**','!node_modules/**', '!./redir/**', '!package.json','!Gruntfile.js'], dest: '/Users/brianbarton/Sites/bkbd/CPWM/CPWM-Prod' },
           //{ cwd: './', src:['**','!node_modules/**', '!./redir/**', '!package.json','!Gruntfile.js']}
-        ]
+        ],
+        verbose:true
       }
     },
     concat:{

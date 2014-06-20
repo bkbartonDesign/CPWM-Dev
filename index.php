@@ -1,6 +1,6 @@
 <?php
-	$title = "Financial Planning and Retirement Services  - Wichita, KS";
-	$description = "CenterPointe Wealth Management is a full service asset and investment management firm providing retirement services, financial planning, and estate planning located in Wichita, KS";
+	$title = "Fee Based Financial Planning and Retirement Services  - Wichita, KS";
+	$description = "CenterPointe Wealth Management is a full service asset and investment management firm providing retirement services, fee based financial planning, and estate planning located in Wichita, KS";
 	$specificKeywords = "";
 ?>
 <!doctype html>
@@ -24,7 +24,6 @@
 		$("html").addClass("no-fouc");		
 	</script>	
 	<script src="./js/analytics.js"></script>
-
 </head>
 <body>	
 
