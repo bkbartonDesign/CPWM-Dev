@@ -24,7 +24,7 @@
 			<li>|</li>
 			<a href="./index.php"><li class="mainLink">Home</li></a>
 			<li>|</li>
-			<a href="./financial-planning-services.php"><li class="mainLink">Advisory Services</li></a>
+			<a href="./financial-planning-services.php"><li class="mainLink">Fee-Based Financial Advice</li></a>
 			<li>|</li>
 			<a href="./plan-retirement.php"><li class="mainLink">Retirement Planning</li></a>
 			<li>|</li>
