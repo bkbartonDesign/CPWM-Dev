@@ -100,7 +100,9 @@
 					<br/>
 				</div>
 				<div class="six columns offset-by-one alpha">					
-					<a href="http://www.jbarton.retirementtime.com/rtindex/iflm_presentation.jsp" target="_blank" rel="nofollow"><img src="./img/assets/rt_logo.png" class="vidBtn"  alt="Video - Retirement Advice"/></a>
+					<a href="http://www.jbarton.retirementtime.com/rtindex/iflm_presentation.jsp" onClick="_gaq.push(['_trackEvent', 'Video', 'Click', 'Retirement Advice']);" target="_blank" rel="nofollow">
+						<img src="./img/assets/rt_logo.png" class="vidBtn"  alt="Video - Retirement Advice"/>
+					</a>
 					<p>
 						This short video explores some of the significant challenges facing
 						people who are nearing retirement or how have already retired.  It’s
@@ -108,7 +110,9 @@
 						video explains The Income for Life Model.</p>
 				</div>
 				<div class="six columns offset-by-one">
- 					<a href="https://jbarton.sswise.com/sswise/homepage.jsp" target="_blank" rel="nofollow"><img src="./img/assets/ss_logo_USE.png" class="vidBtn" target="_blank" alt="Video - Social Security Advice"/></a>
+ 					<a href="https://jbarton.sswise.com/sswise/homepage.jsp" target="_blank" rel="nofollow" onClick="_gaq.push(['_trackEvent', 'Video', 'Click', 'Social Security Advice']);">
+ 						<img src="./img/assets/ss_logo_USE.png" class="vidBtn" target="_blank" alt="Video - Social Security Advice" />
+ 					</a>
 					<p>
 						There’s a lot to think about – and a lot at stake – when it comes to
 						Social Security.  This video “Good Decisions - Getting the Most from
